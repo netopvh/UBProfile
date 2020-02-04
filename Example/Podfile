@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UBProfile_Example' do
+  pod 'UBProfile', :path => '../'
+
+  target 'UBProfile_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
